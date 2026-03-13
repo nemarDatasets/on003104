@@ -1,5 +1,5 @@
 {
-    "Name": "MNE-somato-data-bids dataset (anonymized)",
+    "Name": "MNE-somato-data-bids (anonymized)",
     "BIDSVersion": "1.4.0",
     "License": "CC0",
     "DatasetType": "raw",
