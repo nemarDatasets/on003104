@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MNE-somato-data-bids (anonymized)",
-  "description": "This dataset contains somatosensory MEG recordings converted to BIDS format, including raw MEG data, anatomical MRI scans, and FreeSurfer-derived structural derivatives. The dataset includes forward models and boundary element models computed using MNE-BIDS for source localization studies. This is a standardized version of the MNE-somato-data originally distributed with the MNE-Python toolbox.",
-  "methods_description": "MEG data were acquired and converted to BIDS format using MNE-BIDS. Anatomical T1-weighted MRI images were processed using FreeSurfer's recon-all pipeline with default parameters. Source space definition, boundary element models, and forward models were computed using MNE-Python functions (make_scalp_surfaces, watershed_bem). Head-MRI transformation parameters were derived from anatomical landmarks.",
+  "description": "This dataset contains somatosensory MEG recordings converted to BIDS format, including raw MEG data, anatomical MRI scans, and FreeSurfer-derived structural derivatives. The dataset includes forward models and boundary element models computed using MNE-BIDS, providing a complete neuroimaging resource for studying somatosensory processing and demonstrating MEG-MRI integration workflows.",
+  "methods_description": "MEG data were acquired and subsequently converted to BIDS format using MNE-BIDS. Anatomical T1-weighted MRI images were processed using FreeSurfer's recon-all pipeline with default parameters. Additional FreeSurfer processing included scalp surface generation (mne make_scalp_surfaces) and watershed-based boundary element model computation (mne watershed_bem). Forward models were computed from source space definitions, head-MRI transformation matrices, and conductor models.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,16 +21,16 @@
       "term": "somatosensory"
     },
     {
-      "term": "source localization"
-    },
-    {
-      "term": "forward model"
+      "term": "BIDS"
     },
     {
       "term": "MRI"
     },
     {
-      "term": "BIDS"
+      "term": "forward model"
+    },
+    {
+      "term": "FreeSurfer"
     }
   ],
   "related_identifiers": [
