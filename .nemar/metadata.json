@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MNE-somato-data-bids (anonymized)",
+  "description": "This dataset contains somatosensory MEG recordings converted to BIDS format, including raw MEG data, anatomical MRI scans, and FreeSurfer-derived structural derivatives. The dataset includes forward models and boundary element models computed using MNE-BIDS for source localization studies. This is a standardized version of the MNE-somato-data originally distributed with the MNE-Python toolbox.",
+  "methods_description": "MEG data were acquired and converted to BIDS format using MNE-BIDS. Anatomical T1-weighted MRI images were processed using FreeSurfer's recon-all pipeline with default parameters. Source space definition, boundary element models, and forward models were computed using MNE-Python functions (make_scalp_surfaces, watershed_bem). Head-MRI transformation parameters were derived from anatomical landmarks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,27 @@
     "Mainak Jas": {},
     "Richard Höchenberger": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003104.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "somatosensory"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "forward model"
+    },
+    {
+      "term": "MRI"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003104",
       "identifier_type": "URL",
@@ -26,16 +43,21 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003104",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003104.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "388.7 MB (328 files)"
   ],
   "formats": [
     ".H",
@@ -89,38 +111,8 @@
     ".txt",
     ".volume",
     ".white",
-    ".xfm"
+    ".xfm",
+    ".yml"
   ],
-  "description": "This dataset contains somatosensory MEG recordings converted to BIDS format, including anatomical MRI data and derived FreeSurfer segmentations. The dataset includes preprocessed forward models and boundary element models suitable for source localization studies. It serves as a reference implementation for MEG-MRI co-registration and BIDS conversion workflows.",
-  "methods_description": "MEG data were acquired during somatosensory stimulation. Anatomical T1-weighted MRI was processed using FreeSurfer's recon-all pipeline with default parameters, followed by scalp surface generation and watershed-based boundary element modeling. Forward models were computed using source space definitions, head-MRI transforms derived from anatomical landmarks, and conductor models.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "somatosensory"
-    },
-    {
-      "term": "MRI"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "FreeSurfer"
-    },
-    {
-      "term": "co-registration"
-    },
-    {
-      "term": "forward model"
-    },
-    {
-      "term": "BEM"
-    }
-  ],
-  "source_hash": "fbdbaf581596670f034455f95b581008eae3cef96a032530df29c8292b96657b"
+  "source_hash": "0c2d3ba898ec6018f9d174ed3eb29c659dfe7983c204478884390f6bbb55289a"
 }
