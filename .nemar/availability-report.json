@@ -1,0 +1,1585 @@
+{
+  "dataset_id": "on003104",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:13:17.414Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds003104"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 329,
+    "files_declared": 590,
+    "bytes_present": 388728669,
+    "bytes_declared": 761228965,
+    "pct_bytes": 0.5106593244254704
+  },
+  "missing": [
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/01_brain_surface",
+      "key": "SHA256E-s369273--a61f15d4bcaf7ceafd6f07da5192495bfdeec4492a415e8d46577405caeb789701_brain_surface",
+      "declared_size": 369273,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/01_inner_skull_surface",
+      "key": "SHA256E-s369273--0027eb9c7a1a9e05c320e720a2f2c1240116cb25d74f1117badb18dec28b5d8001_inner_skull_surface",
+      "declared_size": 369273,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/01_outer_skin_surface",
+      "key": "SHA256E-s369273--8325f4583edf9147b86679594cf18e9a62b5b343ecd46a324744c8bd84733f9601_outer_skin_surface",
+      "declared_size": 369273,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/01_outer_skull_surface",
+      "key": "SHA256E-s369273--cef7463c0e52aabce07f82ba8acd228eee8686de16ebd1d1a5e4e67e2b50a62a01_outer_skull_surface",
+      "declared_size": 369273,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-001",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-001",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-002",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-002",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-003",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-003",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-004",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-004",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-005",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-005",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-006",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-006",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-007",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-007",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-008",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-008",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-009",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-009",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-010",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-010",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-011",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-011",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-012",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-012",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-013",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-013",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-014",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-014",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-015",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-015",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-016",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-016",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-017",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-017",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-018",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-018",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-019",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-019",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-020",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-020",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-021",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-021",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-022",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-022",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-023",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-023",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-024",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-024",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-025",
+      "key": "SHA256E-s65536--de2ff895fe30c6f96d87de45ec6a1c7c16126b05be055ed118c015a1adf1aa97COR-025",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-026",
+      "key": "SHA256E-s65536--2358e7c5f8cd475cc55b98395bb59cf38d150523f35ed331eca0ab00985b99a1COR-026",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-027",
+      "key": "SHA256E-s65536--96e29995aae097d695bbabced49180edd9e84993757a7c758184c0dfee2be1e8COR-027",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-028",
+      "key": "SHA256E-s65536--0a6c4bf712cf769bd3a3bf3c0cf655abab78e9b00b992091037e5f7132eaf0c5COR-028",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-029",
+      "key": "SHA256E-s65536--10b4e28fdac3b1a00155e29f402f0dbff461704830ef794003462534badb9f1bCOR-029",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-030",
+      "key": "SHA256E-s65536--3a40bbe97807fb3095890c67af56b31b976609fc9cfb7fd40963eba2e618b424COR-030",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-031",
+      "key": "SHA256E-s65536--879efab8f1972ddb4403688a92adce19ed26bf196072063373317fe74235cf02COR-031",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-032",
+      "key": "SHA256E-s65536--08c34be9f18c245e2507f4a1cfad374885e463a1d6ba5c32af0472232ef811f7COR-032",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-033",
+      "key": "SHA256E-s65536--ac42af55d174b7ec414a979597b448a2486681478df6d0ccc3da5a4d30f3eaeeCOR-033",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-034",
+      "key": "SHA256E-s65536--ac1fc932c3d0f6f7aeb507ed802fd0a6f8d023b86f94da287d3acbd024f42574COR-034",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-035",
+      "key": "SHA256E-s65536--db9c6c286ea4225a55b3c6d481b3dcbf261e65250a7ce40bf81b15c88845b7beCOR-035",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-036",
+      "key": "SHA256E-s65536--ab9160faf4661a86db23bef7f62454d8f08aedb171e4c881e12e19a9167c88bdCOR-036",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-037",
+      "key": "SHA256E-s65536--2a52e4fd36ea07ea9db26d00c494c8bba04449c6fa69ae7adba340451debab3aCOR-037",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-038",
+      "key": "SHA256E-s65536--c1d9c73cfab7ebd9957efa8811633961af1a50d1d22ffd6b6ec7fce0c1f357c9COR-038",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-039",
+      "key": "SHA256E-s65536--8e786b7d1a6e5309bf0b66432ce456fcaaac5a947e2cc9577f429be8584ca82fCOR-039",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-040",
+      "key": "SHA256E-s65536--1fc835db7099236b0213cb581f6c4db41cf3376177c8ec6648ed467536e9d2c6COR-040",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-041",
+      "key": "SHA256E-s65536--b8334f994fc87701bc6b5851e2819ca78d37db94ccbd2052f0b5a6bde4137180COR-041",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-042",
+      "key": "SHA256E-s65536--679a1408fb6310aec2120af6590c5d54909e73c29608831b9e716da384ef56ceCOR-042",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-043",
+      "key": "SHA256E-s65536--d86b2c1f1e19dd8c9b6ebe7fafd5033dc541f8fc0c4988ad833d549606d737fbCOR-043",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-044",
+      "key": "SHA256E-s65536--88ccbc60f039b15a05ad00244078dba35b2c2a403252d241088895cbcb78af59COR-044",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-045",
+      "key": "SHA256E-s65536--c85f5973039d58f95176e7c4c519f0e346ad025c1f06276d609cabed34cebd16COR-045",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-046",
+      "key": "SHA256E-s65536--08fc062ac16410a03cc7170abcfdb29afbb38f14bc65b7daa1e50c7dc470eb60COR-046",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-047",
+      "key": "SHA256E-s65536--b260460b6b1665072e67e8ad8555fcb034858358dc5c9e0aaf3b4889f395cdc5COR-047",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-048",
+      "key": "SHA256E-s65536--c85bb4b262db9116802bae457a347b0220f32666d5409c3fc481ba80a2f002fdCOR-048",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-049",
+      "key": "SHA256E-s65536--2b97d841fe616ee9b81172ff73ceb7432ae009f3b4bb02f8a874e8cef92acb94COR-049",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-050",
+      "key": "SHA256E-s65536--50dda280598ef9c54855c1b90a3aa450a036c95b6b972e1916ee37c33dd65a7dCOR-050",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-051",
+      "key": "SHA256E-s65536--2a006e63bb3061c6d373f679565321cb61f083f6a37669aca6f4b88ac9f58ae3COR-051",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-052",
+      "key": "SHA256E-s65536--abac52218e4cc4120fc9802fed1aee016d8d779695e9e8c4d2dce6106ce258ccCOR-052",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-053",
+      "key": "SHA256E-s65536--f744177b4b8470885c0f10d554287821608ddf57935688d638c36c6f55ba27b6COR-053",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-054",
+      "key": "SHA256E-s65536--5248b43d4d12e82191eecda0cfcd478dcb22d4c87b49dc8ff5af3259efd41513COR-054",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-055",
+      "key": "SHA256E-s65536--c4b06a5af35bde696ca04467f3f49a4960c09a5028016dcb9a8c64572468e683COR-055",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-056",
+      "key": "SHA256E-s65536--d737ae47c9e0ccee1cafde7df8d7a389ac6e49b55b4871a9e7c6c78ff78a889eCOR-056",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-057",
+      "key": "SHA256E-s65536--80be32f452a40035b8c5f8bc34b4e9762a345f6765002bd32e419a1c332e5a4bCOR-057",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-058",
+      "key": "SHA256E-s65536--4b3fe6a50244ae441ac4afa31afb055d55297dffa35c45013d18ae4c4dd369efCOR-058",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-059",
+      "key": "SHA256E-s65536--6ad40fb5081172fee15995a8680357e7a7abdbe1afeaeede82ba67c5ae22b6f4COR-059",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-060",
+      "key": "SHA256E-s65536--2881c05961fc4d1ac06661927324848181b93028c68badb55ec18ed93e053bb3COR-060",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-061",
+      "key": "SHA256E-s65536--58d1f0fcf8e959329fd91e7cda2a012238341d6e49a998f3b4ca563f0d23cda8COR-061",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-062",
+      "key": "SHA256E-s65536--6fd7b59c3d0e958e33c7e52d7b256eb8aa493cc5f2aa0f344c56c6f5f34d4645COR-062",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-063",
+      "key": "SHA256E-s65536--a65be8d772f52a5c97822131be5c2ab556417941bc2a958360195651a0e8ffbaCOR-063",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-064",
+      "key": "SHA256E-s65536--ed6d61a6f3e92eaddf544f9658fb0a00ae55903d3774a1db962b19c981f65b92COR-064",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-065",
+      "key": "SHA256E-s65536--ee76aae5b3054e9a04fbed44b367537732900a4329a627d536519d522192b3b2COR-065",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-066",
+      "key": "SHA256E-s65536--697ec00bcb86a2c36d28ff6f7ac63bcee13defff8241966b00159db2e4b94272COR-066",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-067",
+      "key": "SHA256E-s65536--49a2b04cfb67e882a425e8cb89c256de7b904e232c94ddb8c3c7ecbf20de48b8COR-067",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-068",
+      "key": "SHA256E-s65536--52f24d5b623238daec8120fcd1ddae3012c09fa7458d7a5074df474e776d6837COR-068",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-069",
+      "key": "SHA256E-s65536--5c88dbac6b89ec7373de70625290c4c73533a7f0ebd2e2d96a957c0b0ea01c5aCOR-069",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-070",
+      "key": "SHA256E-s65536--32e62e57b47cc18f326156d8b2075e331f468baa6c79f144a0d5295252dbb2c9COR-070",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-071",
+      "key": "SHA256E-s65536--174df65962c901196102a34f43d57a03d9b7b5804676d9adba58e3cdc557168aCOR-071",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-072",
+      "key": "SHA256E-s65536--61fd0e3b792465bfa766aa8ba6bd94d37fb9eb5ae42304558f37158b98a41d5fCOR-072",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-073",
+      "key": "SHA256E-s65536--6d1f9b1159236cdf407053abeded6752c2b05a2eedd95721398e17f0cebd8cf1COR-073",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-074",
+      "key": "SHA256E-s65536--b0eb9b159b5adfcf0fb6775790191d449a49514f13edb3b2212bf9311db832cdCOR-074",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-075",
+      "key": "SHA256E-s65536--fd97bc513d4a49235a2cae4b47d297c77495612b18648471b67d534fc89777bcCOR-075",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-076",
+      "key": "SHA256E-s65536--cbcb345cca14027106c3fb4d08441e30be5ebb13f1c2a7a18538666774792568COR-076",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-077",
+      "key": "SHA256E-s65536--644f72d25e5c34c09b25b6782e4d69dd34190e935c7d2aada9f9dfdd28b322f0COR-077",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-078",
+      "key": "SHA256E-s65536--b8f2ff7a1fb2b76b2e9fa922138bf98e03bf848a7ec5a7002867d165cdc16c16COR-078",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-079",
+      "key": "SHA256E-s65536--3c32e6ff33dc3e8faa4bb6492530fc3440ae6fd200fc86727f289c1e065c26bdCOR-079",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-080",
+      "key": "SHA256E-s65536--33410b0b9bbae500352353a509d3fa9cfbba6971f235bb53c4aedcbb49d79a03COR-080",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-081",
+      "key": "SHA256E-s65536--fab1a1811ec0b50ddad57bbe6f738c97d2f2740c6c25e2bda022f7f01a9e91b4COR-081",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-082",
+      "key": "SHA256E-s65536--96f35b7b497dcc3ed028633b6f4703c81d5cab55eb68112135a9befb64c1fef5COR-082",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-083",
+      "key": "SHA256E-s65536--9962c57f792b01acb49f1a1d9c9baa92ce3cdbc41698845b15628ad674ddfe06COR-083",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-084",
+      "key": "SHA256E-s65536--82bd90e22b7f4ff26a1d1870aa956f36014b80daaa9c6dd88e69c05b61fa5846COR-084",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-085",
+      "key": "SHA256E-s65536--5a6adb1afaa9ad9473800e152a626907850648ce460ca5be46ce905c8bb6038fCOR-085",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-086",
+      "key": "SHA256E-s65536--8b4a25f7d024bb897e06a53127b680912a66d459c4c397f8a76b750f86ce2058COR-086",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-087",
+      "key": "SHA256E-s65536--8fcb592fee8c2fd64293721e677ecd85a1845334098d8858d97790779ea460b0COR-087",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-088",
+      "key": "SHA256E-s65536--d3a626e1d7ed4e56db8b1f8314966752d0a356d0b17f9da92ed5ac6a94a816f2COR-088",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-089",
+      "key": "SHA256E-s65536--2a69a993a204edc9d09e32fe183c7312a26f11ecf0745c626b4e54603564a9a3COR-089",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-090",
+      "key": "SHA256E-s65536--adf3c44015ac5a47902dc8df97eb8eba7d8530724ba46ae092b338bbec40d64aCOR-090",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-091",
+      "key": "SHA256E-s65536--5181f56d5db54168b23d53c98ca57563b03d86c334f9842a8d6cb877ec3fc559COR-091",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-092",
+      "key": "SHA256E-s65536--b978174ed070d26733b3bd919c6b04a5f0e3b32fd3291842ea1a99f1dd4045bbCOR-092",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-093",
+      "key": "SHA256E-s65536--f8c2d5abe7b928cddc05432c5588d24d9869d77cf1f0d264d6646fccd195ebe7COR-093",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-094",
+      "key": "SHA256E-s65536--699da78d8fd83c089f40aa95b8b4096b222b4559fe7b36d4819444a707c6fb10COR-094",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-095",
+      "key": "SHA256E-s65536--ccd532846f890ee8f336e1d8bb19e2c2199e7476806f3681da75399631040162COR-095",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-096",
+      "key": "SHA256E-s65536--473c2abace863041a34b403a6402eb6011196c6b37a51f30ab2b4ba72c6d730aCOR-096",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-097",
+      "key": "SHA256E-s65536--8fc86d661bcdf7a84308350666f58a3effd90cb366bab46d6697af65b2b699c6COR-097",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-098",
+      "key": "SHA256E-s65536--870c0b70ec83cd25f585766c6e7929733b6c4b17a61b9145e931d71f66df8eefCOR-098",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-099",
+      "key": "SHA256E-s65536--f3d77c06c3b3471d61c643532a34b75d70ce7970bc551ddac6ae94f68bb498ebCOR-099",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-100",
+      "key": "SHA256E-s65536--bcbf6f43b9e2e337f5ae4162f656df29158687367f34baae052557f0e11a2142COR-100",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-101",
+      "key": "SHA256E-s65536--fe611c5d92c0f82f2bc4f2bc96b4f6b8f075e9d167b1ba1503e444a319b64f86COR-101",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-102",
+      "key": "SHA256E-s65536--7c2c7be0a0d79d55dbfc7f20d418bbc0705634a2ebdc4e3c7d2200c22c8c9534COR-102",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-103",
+      "key": "SHA256E-s65536--9cfa3f333d0b10620471f95ddd3462fb56dd4e099be61693dcd59a89a8f0bd32COR-103",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-104",
+      "key": "SHA256E-s65536--6d2acecc227c54c89abbb4b55c3ecc5fd5d75a084276d687c2a96b6e2723c6bbCOR-104",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-105",
+      "key": "SHA256E-s65536--d7a05859b8926c62c7351f838a3f43c7f61aeec6a68aac4553c437cefc767c82COR-105",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-106",
+      "key": "SHA256E-s65536--1ebb274d9f55ed12dd51533062cba5aa0cc26bebaa5532496f968deefbfb93a7COR-106",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-107",
+      "key": "SHA256E-s65536--163975abb67d4b7af3b7973a3d752770bd0de1c4987856cee1b3a6e91419c08fCOR-107",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-108",
+      "key": "SHA256E-s65536--e6730862bb989674dad8f1d1bf2a630bcb6860cd94c63c60640820e2ab53794dCOR-108",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-109",
+      "key": "SHA256E-s65536--827c162875924ea96d8074e4ccadc429f0f1109a50dc809feabcad2c0546042fCOR-109",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-110",
+      "key": "SHA256E-s65536--69d2c843da82c89aead2375fb9fa3553134b33cad066dbd01a733fdb8a06b40dCOR-110",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-111",
+      "key": "SHA256E-s65536--a7194aa0d8b2d15727f0e468faeab7e456f4c11ac6616ba0aff3bc7d32390eb2COR-111",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-112",
+      "key": "SHA256E-s65536--f02460ceea0871f2e2d76f3c676b3bb0596ba1efcca17048528561bb0971d1b6COR-112",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-113",
+      "key": "SHA256E-s65536--ea3b1ec4f784be85f315ca8bee0cd89a0560d7dba0cf8133d5101a7ad4c23553COR-113",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-114",
+      "key": "SHA256E-s65536--49e802b95cb84ba6160cb31733ad437b5e6ff4580e195b72492ea583dd591867COR-114",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-115",
+      "key": "SHA256E-s65536--370aa07f7cdb3bf940826ab78beb8961dab984a87669b8d92542162022f6561aCOR-115",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-116",
+      "key": "SHA256E-s65536--73bd420b94b5ded611b8cf5912b33cc302a0a3932a050bab54892aa0ce044f4bCOR-116",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-117",
+      "key": "SHA256E-s65536--068c2fb07ec29aa87718904ac7f63ea998aabfed2637fdf5f85924c749d6757bCOR-117",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-118",
+      "key": "SHA256E-s65536--277d75a4d46ad6859fa1c5f12d37f042cee3b0eba93d752549b312994092ef23COR-118",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-119",
+      "key": "SHA256E-s65536--62de339c2a1da0dbd7908e5f3a5588a94ee0747549e56e62ca01509fad1e41d3COR-119",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-120",
+      "key": "SHA256E-s65536--b3b9ae3158294840a85c7d2e1cb1bf98dca3d0a4b6be9808b9b9ecdb5b627759COR-120",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-121",
+      "key": "SHA256E-s65536--4fdce8dd622c6196ff04570bd432309c5bc5a0974a33b6d7decd8b82022cd1a3COR-121",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-122",
+      "key": "SHA256E-s65536--7ae2f641c18e0286e4332b7ed505e366c686574a87920e8a6399c5b913c8bb40COR-122",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-123",
+      "key": "SHA256E-s65536--8566564446ab7d4bb07698ae6c0830e90bcb61c9d38c84aefdf7931d2636e2beCOR-123",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-124",
+      "key": "SHA256E-s65536--931e34e53a5d6c60bfff10f5d173290b5c53d43f96a49a141e2579b8b87f7382COR-124",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-125",
+      "key": "SHA256E-s65536--50c0b0cef7a92791d3fbefd7a57098893c672ec018b1b4b18ae70977b45d025bCOR-125",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-126",
+      "key": "SHA256E-s65536--6eae5d129d0526484692e7617b29d4a5cad6e60dbe9d0aa818b3c583a1c11e69COR-126",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-127",
+      "key": "SHA256E-s65536--0e8676db0300aa7f913fd9b4278b60b6cdb9f93f9b784108c79197f561ab2c76COR-127",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-128",
+      "key": "SHA256E-s65536--cb7e92fa787d54b40514d2a2b097e944b9f5b5cc7a23cedc5d5d0128b8671a46COR-128",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-129",
+      "key": "SHA256E-s65536--1338ee3892302b7734b000d39045c3ad4a9752e4463667c25c639e34a9352706COR-129",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-130",
+      "key": "SHA256E-s65536--ccb4c8cc459d432013195262aba37d6feea6b66e4d39a05280cbb4f962942ddaCOR-130",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-131",
+      "key": "SHA256E-s65536--37d767b629de17f5f8d0ad560041e4ed97c34621b5515b104197361bf7d4645bCOR-131",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-132",
+      "key": "SHA256E-s65536--ee9742d1147e4dadd40b030e512925fea68d3d1ed04d32d1fc615a2d4fb1255aCOR-132",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-133",
+      "key": "SHA256E-s65536--55a280cd94aebf60478c945fee25f75accf021615c6ea54d90551b5d90d1b64eCOR-133",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-134",
+      "key": "SHA256E-s65536--337ca5fb80baa359a8a897ede64c294aa80ecabff803e21bcba1e191a7438024COR-134",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-135",
+      "key": "SHA256E-s65536--805d9f896d050daa032167c2a49de1e1fa979d051bb1b0693304196538d6d9a5COR-135",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-136",
+      "key": "SHA256E-s65536--cf793e08ae550dbbe5d2de7074c371dcb339f072f77c756f917a75e5ec9d5217COR-136",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-137",
+      "key": "SHA256E-s65536--38862889a2308f2b236c1206dadf57a93e3bdba11983d7e97e00f8d711ccda15COR-137",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-138",
+      "key": "SHA256E-s65536--361749c0c703356ec5f8b8b1ed207e921c524cdc10cf63e3fdfe2cd53afeda5fCOR-138",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-139",
+      "key": "SHA256E-s65536--abcb666af74d30f0d2950755cc0476c6acff26aef136475aad074cc87051099dCOR-139",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-140",
+      "key": "SHA256E-s65536--036d5e0ef065a5d0fca7c77f3080f724a1da26dd418033f3a7f78b98cf16d5e6COR-140",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-141",
+      "key": "SHA256E-s65536--ba47c850b37bf5cb489985501ae6d4a468d7066f79a6499a45ca5edaed421e03COR-141",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-142",
+      "key": "SHA256E-s65536--a41b69b4d892282ce1c7181ebede9d1e50ea01eb6f98c44dd6a79123a3b043aeCOR-142",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-143",
+      "key": "SHA256E-s65536--2a667e62cd1542613ddf3cbb40d1f5e6f1528d29cafdfe0d7323d9d4e79938f3COR-143",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-144",
+      "key": "SHA256E-s65536--5f4fa821770d22c436e672724c73e66ca0b4a709d4319832c0167e2d597e4fb8COR-144",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-145",
+      "key": "SHA256E-s65536--35c6c3adfce65ba5209013bf0a3f3504a6d66e668f751e11540c8ed7c217f1daCOR-145",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-146",
+      "key": "SHA256E-s65536--51526a43154a3db84c375af0bae34f184765d530aa7ead20038b23f45858f464COR-146",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-147",
+      "key": "SHA256E-s65536--8f707eeda1a6ad1e9b802e63079843ad9cd6ee33ddc88402a4d252c5e48fc527COR-147",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-148",
+      "key": "SHA256E-s65536--7623f45a7b7367bf321cc75d969de80387f980c76b73b5d1d771fb5d12b3eed4COR-148",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-149",
+      "key": "SHA256E-s65536--94ef8f6b24b4584f976f3bcbe999f5bef7abc9e098f81fc3437429e7f844aad4COR-149",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-150",
+      "key": "SHA256E-s65536--7b0f638ef3e0e560613f89be334be8e8f934826d1930a6bd1eef556bf1462c8fCOR-150",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-151",
+      "key": "SHA256E-s65536--308eb17b8e0b9ce52a8e410b4e66c5bc5554619977b969f5fca03f36281ea7e5COR-151",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-152",
+      "key": "SHA256E-s65536--096883ec4f36d23d99084ac8261882c8ad678c7e30147f9b7a455e961f91c006COR-152",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-153",
+      "key": "SHA256E-s65536--b7cba1aa582af18c69636903d35fc0589f0146ccaf8b7ab7b92d229f03f738eaCOR-153",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-154",
+      "key": "SHA256E-s65536--3760cb628c953d90ac7af18271637fd4112789e47c124d9e6e21528ad779bed7COR-154",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-155",
+      "key": "SHA256E-s65536--b81d0c8372dba41b9d6f156a6c13573cddd1c7fccf08d6e11f9cf4754612d49cCOR-155",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-156",
+      "key": "SHA256E-s65536--3a133c45066e57f887044c089012e38a8e830bd353189e8bef5856ab224a8bcfCOR-156",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-157",
+      "key": "SHA256E-s65536--323211d2e7b25a7d94a36d8cb0b38b9473178954da8ffe01129f79581a08eaf2COR-157",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-158",
+      "key": "SHA256E-s65536--1401c1ae100dee69748b509814c0216859e0c8951ce15834aa80cb62fc4de886COR-158",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-159",
+      "key": "SHA256E-s65536--cb0253810fc8e468463e75cfdbc04d338632c609619f2625dc3475002dbfc1e0COR-159",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-160",
+      "key": "SHA256E-s65536--1ce0c333895b192426134e554102a1a9766e784c4514748447479fd9c69056f5COR-160",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-161",
+      "key": "SHA256E-s65536--f5575040f0521c2558f6d1fb4a4fca1b89c86f4dafd88b7f7ff10e16c13d3110COR-161",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-162",
+      "key": "SHA256E-s65536--929b5e3715d5e78dadbf8694b14244734fbfc7a23a26e5af060024ee1c03b9feCOR-162",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-163",
+      "key": "SHA256E-s65536--18b391f589dbbaa629023bab985355ef01af6263a48b7c455c66e17884430312COR-163",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-164",
+      "key": "SHA256E-s65536--5f82b8c31b13bce0cea4e45654e9eb56c5b5dcd71711049572b32ac7e6d89788COR-164",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-165",
+      "key": "SHA256E-s65536--1744424775981acfd34f5eb59f7d881ce5d71c8ab4587aa47fd1f991232c4204COR-165",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-166",
+      "key": "SHA256E-s65536--7bc11c550c5a576d87f503223a126e6f7e533e39eab2bd2921246a54e687cadbCOR-166",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-167",
+      "key": "SHA256E-s65536--c11223d5b3543e5a285c8d8c136c7bf9ee57dac7c2468f5a26625d26186536faCOR-167",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-168",
+      "key": "SHA256E-s65536--438fae9c349a5d6c009c6677229b442c2063015ab07d64e41fe72938aea3aef8COR-168",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-169",
+      "key": "SHA256E-s65536--be432cc39e6eb0c6fece16698444ac304db83bb17334c12446773fb56a47233aCOR-169",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-170",
+      "key": "SHA256E-s65536--59eecc379c5b601f24d957cf9196fd9207d98d7a197be3edddc5d8d25a6f59bfCOR-170",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-171",
+      "key": "SHA256E-s65536--dfe5a0d72ce2edd658cd6b58c333a9480b5326e06b82ef3b31a723caaeff5b47COR-171",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-172",
+      "key": "SHA256E-s65536--541b581d093112d014824d8bf776de422c00b517225e20b017403304a21c299aCOR-172",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-173",
+      "key": "SHA256E-s65536--062b7d04734f360ffe256b1e65d25781aff5aeae41999efbdeb3527b0b2507dbCOR-173",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-174",
+      "key": "SHA256E-s65536--f61948507c666af91e2aa6bf171fa7cc17c70d071f03414d01f8aa0c67657600COR-174",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-175",
+      "key": "SHA256E-s65536--df8295275c1eab135ab2f4bdbafa2384310b9c4d643d8f8336e4c66b01060a07COR-175",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-176",
+      "key": "SHA256E-s65536--60d599ac0bffb5dfef22aa32b1d5f989bce6a643eff362e16a12032e3162e54dCOR-176",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-177",
+      "key": "SHA256E-s65536--4bb6c2a7d19190d7ede88deaef562618415643125868cd43d724c43c6f10c297COR-177",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-178",
+      "key": "SHA256E-s65536--3b0382134d1fef21878962533122054ffa5c87a10581e7bd241419c46d3ed678COR-178",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-179",
+      "key": "SHA256E-s65536--8bc487448724e9edc62d27c747051ccb7d8556dab83e40573627e03df0e7a068COR-179",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-180",
+      "key": "SHA256E-s65536--9443b186c2ec81d1580029ad8aaeeb608647eda6f5c3ddfc3f60bf965be07813COR-180",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-181",
+      "key": "SHA256E-s65536--04fdd03a06a7d1c179d00791fb35e3e508fc2b5e4255d5f5b1deb3508865858cCOR-181",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-182",
+      "key": "SHA256E-s65536--90ed97101c9665e38a1ea03c627964d4bc1b6075b6d84043f02f3891600c1e61COR-182",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-183",
+      "key": "SHA256E-s65536--881b69fd08b89531ddf73a025f642df282716583ab7820181200dd8f6dd6bae6COR-183",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-184",
+      "key": "SHA256E-s65536--bc17e948e9e2a45c91c4876a14f4c24579e3d29923474c3adc46c4481f27cd4aCOR-184",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-185",
+      "key": "SHA256E-s65536--b4db5c6a34d919092f3d33dfc61dda729189c036ff804f7f2c03c9e61a8b9a24COR-185",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-186",
+      "key": "SHA256E-s65536--f933212f724e5455854d54d352105dacaaae38e7be17ba7fdb02a9221c601c77COR-186",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-187",
+      "key": "SHA256E-s65536--5accb6c42982b4a0da43ca9b0d43f23ffb20e3c0e68129bf8f0a081551ff85e0COR-187",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-188",
+      "key": "SHA256E-s65536--6f28246cd44d9f39f6cf5ffdbe77c328be24551415427d77797f1ee7eea92794COR-188",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-189",
+      "key": "SHA256E-s65536--a76c68d96ae7f4f9ff12c4279125bfcdb89b21b8ea453ad3bc8484e533aa56edCOR-189",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-190",
+      "key": "SHA256E-s65536--70d25ff76a37df6156e37babeb2c4a30058b0a5b58865279df982ff886c6ec17COR-190",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-191",
+      "key": "SHA256E-s65536--ba09ff7c641051c916e900398a6dd6d950708a1284f6d9770d7d7cfd462b19faCOR-191",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-192",
+      "key": "SHA256E-s65536--b9b9f12dba0bdda81d9ca2fe1fce175076882fb88d90b4f3489dcba8a97e7c06COR-192",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-193",
+      "key": "SHA256E-s65536--0dbb37420aaf25c02002ba34b22293f9fa5fe963ac219c73077f53766b26dd85COR-193",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-194",
+      "key": "SHA256E-s65536--bd4f7d621804f013418405fcac865178c83c3807ece72b58dc7fd8ee60e07fdcCOR-194",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-195",
+      "key": "SHA256E-s65536--93d3c8345884587070caab0b967e2ab66deac439dafe6f8fdfaafb5cc5632e7aCOR-195",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-196",
+      "key": "SHA256E-s65536--59ae5ad5b4cb82acf3f9f27f0a082dc407b696d5deff72dc13db995fdf677707COR-196",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-197",
+      "key": "SHA256E-s65536--d67378ac6abaedf78eb87aa2e81ea2727526cf22e6b6108c437359efc4643dc0COR-197",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-198",
+      "key": "SHA256E-s65536--d2d5cc03b9ca56afc776a4b073c5bc4df651db6f382fdaa0037f21e6ad5e2eccCOR-198",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-199",
+      "key": "SHA256E-s65536--e99183ec04b12a03675e87b43db78eeef7688cbc24bf061d9d6a504f2aa5810cCOR-199",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-200",
+      "key": "SHA256E-s65536--717714659b4685873ba992ed7f7d74a3a4c0fa325f15b6c91e9af33413992f82COR-200",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-201",
+      "key": "SHA256E-s65536--e2879d8d61c959947395101e2967a647bc69cf5556f5f6fb90566d78d6442a76COR-201",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-202",
+      "key": "SHA256E-s65536--b85a72156c08c50a7d2441f1f072d7ffa79ec28975bd258ac34c4563a7e9a38aCOR-202",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-203",
+      "key": "SHA256E-s65536--6709af3614e0e7b5d9dc51df609ceda686c4dd954d7ee26aa58676ed9d7607dcCOR-203",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-204",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-204",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-205",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-205",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-206",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-206",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-207",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-207",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-208",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-208",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-209",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-209",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-210",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-210",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-211",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-211",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-212",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-212",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-213",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-213",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-214",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-214",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-215",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-215",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-216",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-216",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-217",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-217",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-218",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-218",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-219",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-219",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-220",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-220",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-221",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-221",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-222",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-222",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-223",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-223",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-224",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-224",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-225",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-225",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-226",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-226",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-227",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-227",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-228",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-228",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-229",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-229",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-230",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-230",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-231",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-231",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-232",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-232",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-233",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-233",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-234",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-234",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-235",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-235",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-236",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-236",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-237",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-237",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-238",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-238",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-239",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-239",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-240",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-240",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-241",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-241",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-242",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-242",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-243",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-243",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-244",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-244",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-245",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-245",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-246",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-246",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-247",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-247",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-248",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-248",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-249",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-249",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-250",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-250",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-251",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-251",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-252",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-252",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-253",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-253",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-254",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-254",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-255",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-255",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer/subjects/01/bem/watershed/ws/COR-256",
+      "key": "SHA256E-s65536--de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31COR-256",
+      "declared_size": 65536,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-01/meg/sub-01_task-somato_meg.fif",
+      "key": "SHA256E-s343683462--8f00f205fb4a370cf2c83fab03f1dc0faece4cbcb6873dd0dc8d31566b640f97.fif",
+      "declared_size": 343683462,
+      "reason": "absent"
+    }
+  ]
+}
