@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MNE-somato-data-bids (anonymized)",
-  "description": "This dataset contains somatosensory MEG recordings converted to BIDS format, including raw MEG data, anatomical MRI scans, and FreeSurfer-derived structural derivatives. The dataset includes forward models and boundary element models computed using MNE-BIDS, providing a complete neuroimaging resource for studying somatosensory processing and demonstrating MEG-MRI integration workflows.",
-  "methods_description": "MEG data were acquired and subsequently converted to BIDS format using MNE-BIDS. Anatomical T1-weighted MRI images were processed using FreeSurfer's recon-all pipeline with default parameters. Additional FreeSurfer processing included scalp surface generation (mne make_scalp_surfaces) and watershed-based boundary element model computation (mne watershed_bem). Forward models were computed from source space definitions, head-MRI transformation matrices, and conductor models.",
+  "description": "The MNE-somato-data somatosensory MEG dataset converted to BIDS format using MNE-BIDS. It includes an anonymized MEG recording with an anatomical T1-weighted MRI. Derivatives contain FreeSurfer recon-all reconstructions, scalp and watershed BEM surfaces, and a forward model for source analysis.",
+  "methods_description": "Anatomical MRI was processed with FreeSurfer recon-all using default options. Scalp surfaces and BEM models were then generated with MNE make_scalp_surfaces and watershed_bem. A forward solution was computed from the source space, a head-MRI transform, and the BEM solution. The BIDS conversion is reproducible via a Python script in the /code directory.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,13 +24,18 @@
       "term": "BIDS"
     },
     {
-      "term": "MRI"
+      "term": "MNE-Python"
+    },
+    {
+      "term": "FreeSurfer"
     },
     {
       "term": "forward model"
     },
     {
-      "term": "FreeSurfer"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
@@ -40,14 +45,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003104",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003104.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003104",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -57,7 +62,7 @@
     "meg"
   ],
   "sizes": [
-    "388.7 MB (328 files)"
+    "716 MB (589 files)"
   ],
   "formats": [
     ".H",
