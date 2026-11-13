@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MNE-somato-data-bids (anonymized)",
-  "description": "The MNE-somato-data somatosensory MEG dataset converted to BIDS format using MNE-BIDS. It includes an anonymized MEG recording with an anatomical T1-weighted MRI. Derivatives contain FreeSurfer recon-all reconstructions, scalp and watershed BEM surfaces, and a forward model for source analysis.",
-  "methods_description": "Anatomical MRI was processed with FreeSurfer recon-all using default options. Scalp surfaces and BEM models were then generated with MNE make_scalp_surfaces and watershed_bem. A forward solution was computed from the source space, a head-MRI transform, and the BEM solution. The BIDS conversion is reproducible via a Python script in the /code directory.",
+  "description": "BIDS-formatted version of the MNE-somato-data somatosensory MEG dataset, distributed with MNE-Python. It includes raw MEG data and anatomical MRI, together with FreeSurfer reconstructions, boundary element models and a forward solution as derivatives. The conversion was performed with MNE-BIDS using a reproducible script.",
+  "methods_description": "MRI data were processed with FreeSurfer recon-all using default options. Scalp surfaces and watershed BEM were then generated with MNE commands (make_scalp_surfaces, watershed_bem). A forward model was computed from the source space, the head-MRI transform and the BEM solution.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,9 +21,6 @@
       "term": "somatosensory"
     },
     {
-      "term": "BIDS"
-    },
-    {
       "term": "MNE-Python"
     },
     {
@@ -33,9 +30,7 @@
       "term": "forward model"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -62,7 +57,7 @@
     "meg"
   ],
   "sizes": [
-    "716 MB (589 files)"
+    "729 MB (773 files)"
   ],
   "formats": [
     ".H",
@@ -119,5 +114,5 @@
     ".xfm",
     ".yml"
   ],
-  "source_hash": "0c2d3ba898ec6018f9d174ed3eb29c659dfe7983c204478884390f6bbb55289a"
+  "source_hash": "45aabea4584940636f674f5711649a144e2ebcd209a32b56590aa897102bb74e"
 }
